@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "random": "cpp",
+        "limits": "cpp",
+        "type_traits": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "functional": "cpp"
+    }
+}
