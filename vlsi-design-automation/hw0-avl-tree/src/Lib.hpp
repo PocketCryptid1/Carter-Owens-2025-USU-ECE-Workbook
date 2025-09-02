@@ -24,10 +24,13 @@ private:
     int bFactor(Node*);
     Node* rightRotate(Node*);
     Node* leftRotate(Node*);
+    Node* balance(Node*);
     Node* insert(Node*, int);
     Node* minValueNode (Node*);
     Node* deleteNode(Node*, int);
+    void preOrder(Node*);
     void inOrder(Node*);
+    void postOrder(Node*);
     bool search(Node*, int);
 
 public:
