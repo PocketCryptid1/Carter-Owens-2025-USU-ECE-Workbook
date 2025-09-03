@@ -38,7 +38,9 @@ public:
     void insert(int);
     void remove(int);
     bool search(int);
+    void printPreOrder();
     void printInOrder();
+    void printPostOrder();
 };
 
 #endif

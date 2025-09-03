@@ -1,4 +1,4 @@
-#include "Lib.hpp"
+#include "lib.h"
 #include <algorithm>
 #include <iostream>
 
@@ -9,8 +9,7 @@ Node::Node(int k):
     left(nullptr),
     right(nullptr),
     height(1)
-{
-}
+{}
 
 int Tree::height(Node* node)
 {
@@ -64,6 +63,7 @@ Node* Tree::leftRotate(Node* x)
 
 Node* Tree::balance(Node* current)
 {
+	cout<< "balancing\n" << current->key << endl;
 	//check balance factor
     int bal = bFactor(current);
 
@@ -97,7 +97,7 @@ Node* Tree::insert(Node* current, int key)
 {
 
 //insert node
-	//empty tree
+	//open space
     if (current == nullptr)
         return new Node(key);
 	//left
@@ -105,7 +105,7 @@ Node* Tree::insert(Node* current, int key)
         current->left = insert(current->left, key);
 	//right
     else if (key > current->key)
-        current->right = insert(current->left, key);
+        current->right = insert(current->right, key);
 	//already in tree
     else
         return current;
@@ -173,21 +173,75 @@ Node* Tree::deleteNode(Node* current, int key)
 		return balance(current);
 	}
 }
-void preOrder(Node* root){
-	if (root != nullptr) {
-		cout << root->key << ", ";
-		inOrder(root->left);
-		inOrder(root->right);
+
+void Tree::preOrder(Node* current){
+	if (current != nullptr) {
+		cout << current->key << ", ";
+		preOrder(current->left);
+		preOrder(current->right);
 	}
 	return;
 }
 
-void inOrder(Node* root)
+void Tree::inOrder(Node* current)
 {
-	if (root != nullptr) {
-		inOrder(root->left);
-		cout << root->key << ", ";
-		inOrder(root->right);
+	if (current != nullptr) {
+		inOrder(current->left);
+		cout << current->key << ", ";
+		inOrder(current->right);
 	}
+	return;
+}
+
+void Tree::postOrder(Node* current){
+	if (current != nullptr) {
+		postOrder(current->left);
+		postOrder(current->right);
+		cout << current->key << ", ";
+	}
+	return;
+}
+
+bool Tree::search(Node* current, int key){
+	if (current == nullptr)
+        return false;
+    if (current->key == key)
+        return true;
+    if (key < current->key)
+        return search(current->left, key);
+    return search(current->right, key);
+}
+/*=====PUBLIC FUNCTIONS=====*/
+
+Tree::Tree():
+	root(nullptr)
+{}
+
+void Tree::insert(int key){
+	root = insert(root, key);
+	return;
+}
+
+void Tree::remove(int key){
+	root = deleteNode(root, key);
+	return;
+}
+
+bool Tree::search(int key){
+	return search(root, key);
+}
+
+void Tree::printPreOrder(){
+	preOrder(root);
+	return;
+}
+
+void Tree::printInOrder(){
+	inOrder(root);
+	return;
+}
+
+void Tree::printPostOrder(){
+	postOrder(root);
 	return;
 }
