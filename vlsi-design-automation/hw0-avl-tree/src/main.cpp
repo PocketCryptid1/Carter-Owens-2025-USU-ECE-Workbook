@@ -20,7 +20,7 @@ int main()
     for(;;)
     {
         selection = 0;
-        cout << "Please select an Option:\n(1) Create Tree\n(2) Insert Node\n(3) Delete Node\n(4) Search Tree\n(5) Traversal\n(6) Exit" << endl;
+        cout << "Please select an Option:\n(1) Create Tree\n(2) Insert Node\n(3) Search Tree\n(4) Traversal\n(5) Exit" << endl;
         cin >> selection;
         switch (selection)
         {
@@ -32,6 +32,8 @@ int main()
             ifstream inFile (inputFile);
             while (inFile >> singleNum)
                 usrTree.insert(singleNum);
+            cout << "Creating Tree: ";
+            usrTree.printPreOrder();
             break;
         }        
         case 2:
@@ -39,23 +41,21 @@ int main()
             cout << "Enter value to add:" << endl;
             cin >> singleNum;
             usrTree.insert(singleNum);
+            cout << "Inserting Node: ";
+            usrTree.printPreOrder();
             break;
         
         case 3:
-            //Delete Node
-            cout << "Enter value to delete:" << endl;
-            cin >> singleNum;
-            usrTree.remove(singleNum);
-            break;
-        
-        case 4:
             //Search tree
             cout << "Enter value to search:" << endl;
             cin >> singleNum;
-            usrTree.search(singleNum);
+            if(usrTree.search(singleNum))
+                cout << "Value is in tree" << endl;
+            else
+                cout << "Value is not in tree" << endl;
             break;
         
-        case 5:
+        case 4:
             //Traversal
             cout << "Select Traversal:\n(1) Pre-Order\n(2) In-Order\n(3) Post-Order" << endl;
             cin >> singleNum;
@@ -79,8 +79,9 @@ int main()
             cout << endl;
             break;
 
-        case 6:
+        case 5:
             //exit
+            cout << "Exiting";
             return 0;
             break;
             

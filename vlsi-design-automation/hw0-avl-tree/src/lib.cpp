@@ -45,8 +45,8 @@ Node* Tree::rightRotate(Node* y)
 
 Node* Tree::leftRotate(Node* x)
 {
-    Node* y= x->right;
-    Node* T2= y->left;
+    Node* y = x->right;
+    Node* T2 = y->left;
 
     //rotate
     y->left = x;
@@ -63,7 +63,10 @@ Node* Tree::leftRotate(Node* x)
 
 Node* Tree::balance(Node* current)
 {
-	cout<< "balancing\n" << current->key << endl;
+	//update heights
+	current->height = 1
+   		+ max(height(current->left),height(current->right));
+
 	//check balance factor
     int bal = bFactor(current);
 
@@ -86,7 +89,7 @@ Node* Tree::balance(Node* current)
 	}
 
 	//right right
-	if (bal > 1 && bFactor(current->right) <= 0)
+	if (bal < -1 && bFactor(current->right) <= 0)
 		return leftRotate(current);
 	
 	//already balanced
@@ -108,12 +111,7 @@ Node* Tree::insert(Node* current, int key)
         current->right = insert(current->right, key);
 	//already in tree
     else
-        return current;
-
-    //update height as we step out of recursion
-    current->height = 1
-        + max(height(current->left),height(current->right));
-
+        return balance(current);
 	//balance
 	return balance(current);
 }
@@ -172,6 +170,9 @@ Node* Tree::deleteNode(Node* current, int key)
 			
 		return balance(current);
 	}
+	//should be unreachable 
+	//but added to make the compiler happy
+	return (nullptr);
 }
 
 void Tree::preOrder(Node* current){
@@ -233,15 +234,18 @@ bool Tree::search(int key){
 
 void Tree::printPreOrder(){
 	preOrder(root);
+	cout << endl;
 	return;
 }
 
 void Tree::printInOrder(){
 	inOrder(root);
+	cout << endl;
 	return;
 }
 
 void Tree::printPostOrder(){
 	postOrder(root);
+	cout << endl;
 	return;
 }
