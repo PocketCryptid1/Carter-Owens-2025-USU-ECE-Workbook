@@ -1,3 +1,7 @@
 reconfigurable-computing/quartus-cd
 
 vlsi-design-automation/hw0-avl-tree/target
+
+*.pdf
+
+*.tar.gz
