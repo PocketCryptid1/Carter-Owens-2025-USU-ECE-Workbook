@@ -1,0 +1,3 @@
+[submodule "reconfigurable-computing/labs"]
+	path = reconfigurable-computing/labs
+	url = https://github.com/PocketCryptid1/Reconfigurable-Computing-Lab-work
