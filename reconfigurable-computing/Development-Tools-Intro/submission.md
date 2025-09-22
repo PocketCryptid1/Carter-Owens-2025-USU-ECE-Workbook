@@ -12,19 +12,19 @@ geometry: margin=2cm
 
 This Project displays the voltage of the selected ADC on the 7-segment Display. the ADC is selected via the last 3 switches. it occasionaly blinks the LEDs, it is unclear what that indicates.
 
-Inputs: Switches 
+Inputs: Switches
 
-Outputs: LEDs, Seven-Segment Display 
+Outputs: LEDs, Seven-Segment Display
 
 ## GSensor
 
 ![GSensor Usage Stats](gsensor-usage.png "Usage Stats")
 
-This Project displays the output of the Accelerometer on the LED. it does this by lighting the "Top" LED based on Gravity. 
+This Project displays the output of the Accelerometer on the LED. it does this by lighting the "Top" LED based on Gravity.
 
-Inputs: Accelerometer 
+Inputs: Accelerometer
 
-Outputs: LED 
+Outputs: LED
 
 ## Default
 
