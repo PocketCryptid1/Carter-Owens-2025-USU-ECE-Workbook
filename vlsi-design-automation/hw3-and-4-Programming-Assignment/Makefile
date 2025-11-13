@@ -7,7 +7,7 @@ SRCS = $(SRC_DIR)/main.cpp $(SRC_DIR)/module.cpp $(SRC_DIR)/floorplan.cpp
 OBJS = $(SRCS:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 DEPS = $(SRC_DIR)/module.h $(SRC_DIR)/floorplan.h
 
-TARGET = floorplan
+TARGET = anneal
 
 all: $(TARGET)
 
