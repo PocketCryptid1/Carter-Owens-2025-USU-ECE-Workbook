@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="29.2.3">
+  <diagram name="Page-1" id="1e4ZK0-yJ9rpeS5q4Z5G">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ocTW-hKQlS6RvChznfF-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=light-dark(#000000, #adadad);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontSize=14;fontColor=light-dark(default, #adadad);labelBorderColor=none;labelBackgroundColor=none;fillColor=light-dark(#000000,#212121);" value="" vertex="1">
+          <mxGeometry height="120" width="420" x="190" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9ocTW-hKQlS6RvChznfF-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=light-dark(#000000, #adadad);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontSize=14;fontColor=light-dark(default, #adadad);labelBorderColor=none;labelBackgroundColor=none;fillColor=light-dark(#000000,#212121);" value="" vertex="1">
+          <mxGeometry height="120" width="580" x="190" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-9" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-10" connectable="0" parent="AR9ecUpsX23sa5dndAGW-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="Raw Video" vertex="1">
+          <mxGeometry relative="1" x="-0.05" y="-3" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-1" parent="1" style="triangle;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="Camera" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-11" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-12" connectable="0" parent="AR9ecUpsX23sa5dndAGW-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="Digital&lt;br&gt;Packets" vertex="1">
+          <mxGeometry relative="1" x="0.125" y="-4" as="geometry">
+            <mxPoint x="-5" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-2" parent="1" style="aspect=fixed;rounded=0;labelBackgroundColor=none;fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000, #adadad);perimeterSpacing=0;glass=0;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;labelBorderColor=none;textShadow=0;whiteSpace=wrap;html=1;convertToSvg=0;strokeWidth=1;fontSize=14;" value="&lt;font&gt;Hardware&lt;br&gt;Encoder&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-13" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-14" connectable="0" parent="AR9ecUpsX23sa5dndAGW-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="Waveforms" vertex="1">
+          <mxGeometry relative="1" x="0.25" y="-1" as="geometry">
+            <mxPoint x="-10" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-27" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-29" connectable="0" parent="AR9ecUpsX23sa5dndAGW-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="&lt;div&gt;State/&lt;/div&gt;&lt;div&gt;Settings&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.06" y="-1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;perimeterSpacing=0;strokeWidth=1;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);strokeColor=light-dark(#000000,#ADADAD);fillColor=light-dark(#000000,#212121);fontSize=14;" value="SBC" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-15" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-16" connectable="0" parent="AR9ecUpsX23sa5dndAGW-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="ACK/ARQ" vertex="1">
+          <mxGeometry relative="1" y="-3" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-19" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-20" connectable="0" parent="AR9ecUpsX23sa5dndAGW-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="&lt;div&gt;Radio&lt;/div&gt;&lt;div&gt;&amp;nbsp;Signal&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3" y="-5" as="geometry">
+            <mxPoint x="-12" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=14;" value="WiFi Module" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-21" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-22" connectable="0" parent="AR9ecUpsX23sa5dndAGW-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="&lt;div&gt;Final&lt;/div&gt;&lt;div&gt;&amp;nbsp;Signal&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.25" y="1" as="geometry">
+            <mxPoint x="-10" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-25" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-26" connectable="0" parent="AR9ecUpsX23sa5dndAGW-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="&lt;div&gt;ACK/ARQ&lt;/div&gt;&lt;div&gt;Waveforms&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.325" y="-3" as="geometry">
+            <mxPoint x="13" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="Analog Filters/Amplifier" vertex="1">
+          <mxGeometry height="80" width="80" x="680" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-23" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-24" connectable="0" parent="AR9ecUpsX23sa5dndAGW-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=13;" value="ACK/ARQ&lt;br&gt;&lt;div&gt;Radio&amp;nbsp;&lt;/div&gt;&lt;div&gt;Signal&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.05" y="2" as="geometry">
+            <mxPoint y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-7" parent="1" style="triangle;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="Antenna" vertex="1">
+          <mxGeometry height="80" width="80" x="840" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-28" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-30" connectable="0" parent="AR9ecUpsX23sa5dndAGW-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="On&lt;br&gt;Screen&lt;br&gt;Display" vertex="1">
+          <mxGeometry relative="1" x="0.04" y="-5" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="Flight Controller" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-37" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-44" connectable="0" parent="AR9ecUpsX23sa5dndAGW-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="&lt;div&gt;Final&amp;nbsp;&lt;/div&gt;&lt;div&gt;Signal&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3167" y="-1" as="geometry">
+            <mxPoint x="-9" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-31" parent="1" style="triangle;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="Antenna" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-38" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-45" connectable="0" parent="AR9ecUpsX23sa5dndAGW-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="&lt;div&gt;Radio&lt;/div&gt;&lt;div&gt;&amp;nbsp;Signal&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.125" y="-1" as="geometry">
+            <mxPoint x="-5" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-43" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-50" connectable="0" parent="AR9ecUpsX23sa5dndAGW-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="ACK/ARQ&lt;br&gt;&lt;div&gt;Radio&amp;nbsp;&lt;/div&gt;&lt;div&gt;Signal&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5" y="-4" as="geometry">
+            <mxPoint x="-13" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-32" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="&lt;div&gt;Analog Filters/Amplifier&lt;/div&gt;&lt;div&gt;(Optional)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-39" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-46" connectable="0" parent="AR9ecUpsX23sa5dndAGW-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="&lt;div&gt;Video&lt;/div&gt;&lt;div&gt;&amp;nbsp;Packets&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="-2" as="geometry">
+            <mxPoint x="-4" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-42" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-49" connectable="0" parent="AR9ecUpsX23sa5dndAGW-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="ACK/ARQ&lt;br&gt;Waveforms" vertex="1">
+          <mxGeometry relative="1" x="0.025" y="-3" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-33" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="WiFi Module" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-40" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-47" connectable="0" parent="AR9ecUpsX23sa5dndAGW-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="&lt;div&gt;VIdeo&amp;nbsp;&lt;/div&gt;&lt;div&gt;Signal&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.25" as="geometry">
+            <mxPoint x="-10" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-41" edge="1" parent="1" source="AR9ecUpsX23sa5dndAGW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=light-dark(default, #adadad);fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" target="AR9ecUpsX23sa5dndAGW-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-48" connectable="0" parent="AR9ecUpsX23sa5dndAGW-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fontSize=14;" value="ACK/ARQ" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+            <mxPoint x="-4" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-34" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="SBC" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9ecUpsX23sa5dndAGW-36" parent="1" style="triangle;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontColor=light-dark(default, #adadad);fillColor=light-dark(#000000,#212121);strokeColor=light-dark(#000000,#ADADAD);fontSize=14;" value="HDMI" vertex="1">
+          <mxGeometry height="80" width="80" x="680" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="9ocTW-hKQlS6RvChznfF-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontSize=14;fontColor=light-dark(default, #adadad);labelBackgroundColor=none;resizable=0;" value="VTX" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ocTW-hKQlS6RvChznfF-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Saira;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSaira;fontSize=14;fontColor=light-dark(default, #adadad);labelBackgroundColor=none;resizable=0;" value="VRX" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

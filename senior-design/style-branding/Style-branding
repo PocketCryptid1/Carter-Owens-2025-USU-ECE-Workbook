@@ -4,3 +4,9 @@ colors:
     #02735E
     #038C3E
     #0CF25D
+
+Text:
+    Header: #FFFFFF
+    Body:   #ADADAD
+
+BG: #212121
